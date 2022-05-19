@@ -1,0 +1,37 @@
+@import '../../variables/variables.scss';
+
+.nav {
+    
+    
+    background-color: $primarycolor;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+
+    
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 60%;
+    
+    justify-content: center;
+    align-items: center;
+    
+
+    ul {
+        list-style: none;
+        li {
+            color: white;
+            margin-top: 2rem;
+            cursor: pointer;
+            
+            font-size: 16px;
+        }
+        
+    }
+
+    
+}
